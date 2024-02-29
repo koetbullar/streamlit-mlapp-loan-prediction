@@ -5,7 +5,7 @@ import wget
 import os
 
 model_name = 'RF_Loan_model.joblib'
-file_url = "https://raw.githubusercontent.com/manifoldailearning/Complete-MLOps-BootCamp/main/Build-ML-App-Streamlit/RF_Loan_model.joblib"
+file_url = "https://raw.github.com/koetbullar/streamlit-mlapp-loan-prediction/blob/master/RF_Loan_model.joblib"
 
 # Check if the model file already exists in the directory
 if not os.path.exists(model_name):
